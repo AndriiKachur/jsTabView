@@ -1,0 +1,33 @@
+.tab-view {
+    margin: 10px auto;
+    width: 50%;
+    min-height: 300px;
+}
+
+.tab-headers:after {
+    clear: both;
+    content: '';
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+
+.tab-headers .header {
+    float: left;
+    width: 60px;
+    border: 1px solid blue;
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
+
+.tab-headers .header.active {
+    background-color: #dddddd;
+    color: #dd4444;
+}
+
+.tab-content {
+    height: 290px;
+    border: 1px dotted yellow;
+    overflow: auto;
+}
